@@ -8,7 +8,7 @@ mod interfaces;
 use storage::Storage;
 
 pub use errors::*;
-pub use types::*;
+pub use types::*; 
 pub use events::*;
 pub use interfaces::{FrontierNftMetadata, FrontierNftTrait};
 
