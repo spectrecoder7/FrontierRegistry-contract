@@ -89,7 +89,7 @@ impl FrontierNft {
         let mut v: Vec<Val> = Vec::new(env);
         v.push_back(to.into_val(env));
         v.push_back(token_id.into());
-        Event::Mint.publish(env, v);
+        Event::Mint.publish(env, v);    
     }
 }
 
