@@ -32,5 +32,5 @@ fn test() {
     assert_eq!(client.name(), String::from_str(&env, "token_name"), "wrong token name");
     assert_eq!(client.description(), String::from_str(&env, "token_description"), "wrong token description");
     assert_eq!(client.uri(&token_id), String::from_str(&env, "ipfs_hash"), "wrong uri");
-    assert_eq!(client.keywords(), String::from_str(&env, "biology, dynamic"), "wrong keywords");
+    assert_eq!(client.keywords(), String::from_str(&env, "biology, dynamic"), "wrong keywords");    
 }
