@@ -10,7 +10,7 @@ impl storage::Storage for Admin {
     }
 
     fn set<V: soroban_sdk::IntoVal<Env, soroban_sdk::Val>>(&self, env: &Env, val: &V) {
-        storage::Persistent::set(env, self, val)
+        storage::Persistent::set(env, self, val)     
     }
 
     fn has(&self, env: &Env) -> bool {
